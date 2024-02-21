@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+/* header part styling start */
+.todo-main {
+    background-color: rgb(0, 0, 0);
+    padding: 25px 17px;
+    width: 570px;
+    margin: 200px auto;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(148, 148, 148);
+}
+
+.todo-main h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+}
+
+.todo-secondary {
+    padding: 32px 12px;
+    padding-bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.no-task-text {
+    color: white;
+    text-align: center;
+    padding-top: 28px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.todo input {
+    flex: 1;
+    height: 65px;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    padding-left: 23px;
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(56, 55, 55);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.todo button {
+    position: absolute;
+    right: 0;
+    height: 65px;
+    width: 120px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    background-color: rgb(226, 38, 69);
+    color: white;
+    z-index: 1;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.todo button:hover {
+    box-shadow: 0 3px 16px 0 rgba(121, 120, 120, 0.486), 0 3px 20px 0 rgba(250, 248, 248, 0.19);
+}
+
+/* header part styling end */
+
+
+
+
+
+/* Task display part styling start */
+.lists {
+    padding: 12px 10px;
+}
+
+.todo-lists {
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    justify-content: space-between;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    margin-bottom: 21px;
+    box-shadow: 1px 1px 10px 1px rgb(110, 110, 110);
+    overflow: hidden;
+    position: relative;
+}
+
+.todo-lists li {
+    list-style-type: none;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: 1;
+    color: rgb(87, 86, 86);
+}
+
+.delete-icon {
+    font-size: 23px;
+    cursor: pointer;
+    color: rgb(219, 28, 60);
+    position: absolute;
+    left: 91%;
+}
+
+/* Task display part styling end */
